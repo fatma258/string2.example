@@ -1,0 +1,19 @@
+//girilen metni tersten yazan program
+
+#include <stdio.h>
+#include <string.h>
+int main(int argc, char *argv[]){
+	
+	char metin[100];
+	
+	printf("metin girin :");  gets(metin);
+	
+	int i;
+
+	int n= strlen(metin) ;
+	
+	for(i=0;i<=n;i++){
+		 
+		 printf("%c",metin[n-i-1]);
+	}
+}
